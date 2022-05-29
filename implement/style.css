@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  /* height: 800px; */
+  margin: 50px auto;
+  /* margin-top: auto; */
+  /* position: relative; */
+}
+article {
+  border: 5px solid #000;
+}
+.header {
+  /* display: inline-block; */
+  /* width: 350px; */
+  float: left;
+  /* background-color: forestgreen; */
+  /* margin-right: 20px; */
+}
+
+.product-info {
+  /* display: inline-block; */
+  width: 242.5px;
+  float: left;
+  /* background-color: red; */
+  margin-right: 40px;
+  padding-top: 20px;
+}
+
+.product-details {
+  width: 243px;
+  /* display: inline-block; */
+  float: right;
+  margin-left: 40px;
+  /* background-color: aqua; */
+}
+.product-details ul li {
+  margin-top: 10px;
+}
+.price {
+  float: left;
+}
+.shipping {
+  float: right;
+}
+
+.product-decripion {
+  clear: both;
+}
+
+.sale {
+  /* display: inline-block; */
+  color: #000;
+  background-color: rgba(182, 24, 24, 0.938);
+  width: fit-content;
+  padding: 5px 18px;
+  color: #fff;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 14px;
+  position: absolute;
+  left: -33px;
+  top: -9px;
+}
+
+h2 {
+  text-align: center;
+  background-color: #b7b7b746;
+  padding: 15px 0;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.product-img {
+  margin-right: 40px;
+  /* width: 300px; */
+  /* height: fit-content; */
+  float: left;
+}
+
+.price {
+  /* font-weight: bold; */
+  font-size: 18px;
+}
+
+.shipping {
+  font-size: 12px;
+  font-weight: normal;
+  margin-bottom: 15px;
+}
+
+.link {
+  color: #000;
+  display: block;
+  margin-top: 20px;
+  /* margin-bottom: /; */
+}
+
+.color {
+  display: inline-block;
+  /* background-color: #000; */
+  margin-top: 15px;
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+}
+
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.yellow {
+  background-color: yellow;
+}
+.dark-blue {
+  background-color: darkblue;
+}
+.blue {
+  background-color: lightskyblue;
+}
+.brown {
+  background-color: brown;
+}
+
+/* h3 {
+  margin-top: 20px;
+}
+
+ul {
+  /* margin-left: 20px;
+} */
+
+/* ul li {
+  margin: 15px 0; 
+}  */
+
+button {
+  display: block;
+  background-color: #000;
+  color: aliceblue;
+  font-size: 18px;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 15px;
+  clear: both;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}
