@@ -150,14 +150,14 @@ header {
   width: 250px;
   height: 250px;
 }
-.row {
+/* .row {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 44.5px;
-  /* gap: 44.5px; */
-  /* justify-content: center; */
-}
+   gap: 44.5px; 
+   justify-content: center; 
+} */
 
 .price-row {
   display: flex;
@@ -170,12 +170,14 @@ header {
   display: flex;
 }
 
-.product-info {
+/* .product-info {
   flex: 1;
   line-height: 1.5;
-}
+} */
 
-.product-details {
+/* .product-details {
   flex: 1;
   line-height: 1.5;
-}
+} */
+
+/*  css GRID */
