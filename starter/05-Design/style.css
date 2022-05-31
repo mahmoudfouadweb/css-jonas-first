@@ -41,7 +41,7 @@ section {
 h2 {
   margin-bottom: 48px;
   font-size: 32px;
-  letter-spacing: -0.5px;
+  letter-spacing: -0.7px;
   /* font system */
   /* 24 / 30 / 36 */
 }
@@ -50,6 +50,14 @@ h2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 80px;
+}
+
+.svg-top {
+  width: 25px;
+  height: 25px;
+  color: #087f5b;
+  /* margin-bottom: 15px; */
+  margin: 0 auto 15px auto;
 }
 
 .btn:link,
@@ -86,6 +94,7 @@ h1 {
   margin-bottom: 24px;
   font-size: 44px;
   line-height: 1.1;
+  letter-spacing: -1.5px;
   /* font system */
   /*  44 / 52 / 62 */
 }
@@ -101,6 +110,7 @@ h1 {
 
 img {
   width: 100%;
+  border-radius: 15px;
 }
 
 /* FEATURES */
@@ -119,6 +129,10 @@ img {
 
 /* TESTIMONIAL */
 .testimonial-section {
+  background-color: #087f5b;
+  color: #fff;
+  padding: 25px;
+  border-radius: 15px;
 }
 
 .testimonial-box {
@@ -145,6 +159,16 @@ img {
 }
 
 /* CHAIRS */
+.chair {
+  border-radius: 15px;
+  box-shadow: 15px 15px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.chair img {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
 .chair-box {
   padding: 24px;
 }
@@ -170,7 +194,11 @@ h3 {
   margin-bottom: 0;
 }
 
-.chair-icon {
+.svg-card {
+  width: 25px;
+  height: 25px;
+  color: #087f5b;
+  margin-right: 10px;
 }
 
 .chair-price {
@@ -188,4 +216,7 @@ h3 {
 
 footer {
   margin-bottom: 48px;
+  font-size: 14px;
+  color: #868e96;
+  /* font-style: italic; */
 }
