@@ -24,7 +24,7 @@ light--color: #495057
 /* ------------------------ */
 body {
   font-family: 'inter', sans-serif;
-  color: #212529;
+  color: #343a40;
   border-bottom: 8px solid #087f5b;
 }
 
@@ -36,6 +36,10 @@ body {
 header,
 section {
   margin-bottom: 48px;
+}
+
+section {
+  margin-bottom: 80px;
 }
 
 h2 {
@@ -83,7 +87,10 @@ header {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 80px;
-  margin-top: 48px;
+  margin-top: 32px;
+  margin-bottom: 96px;
+  /* wieght space */
+  /* 48 / 64 / 80 / 96 */
 }
 
 .header-text-box {
@@ -91,7 +98,7 @@ header {
 }
 
 h1 {
-  margin-bottom: 24px;
+  margin-bottom: 48px;
   font-size: 44px;
   line-height: 1.1;
   letter-spacing: -1.5px;
@@ -117,6 +124,7 @@ img {
 
 /* FEATURES */
 .features-icon {
+  margin-bottom: 15px;
 }
 
 .features-title {
@@ -154,11 +162,13 @@ img {
   margin-bottom: 24px;
   font-size: 18px;
   line-height: 1.7;
+  color: #e6fcf5;
 }
 
 .testimonial-author {
   font-size: 14px;
   font-style: italic;
+  color: #c3fae8;
 }
 
 /* CHAIRS */
@@ -202,6 +212,7 @@ h3 {
   height: 25px;
   color: #087f5b;
   margin-right: 10px;
+  /* margin-left: 10px; */
 }
 
 .chair-price {
