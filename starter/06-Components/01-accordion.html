@@ -14,6 +14,7 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        line-height: 1;
       }
       body {
         font-family: 'inter', sans-serif;
@@ -32,16 +33,27 @@
         light--color: #495057
       */
 
-      .acorrdion {
+      .container {
         width: 700px;
         margin: 100px auto;
+        border-top: #087f5b 5px solid;
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
       }
-      .title {
+
+      .main {
         display: flex;
         color: #087f5b;
-        margin-bottom: 25px;
+        margin-top: 10px;
+        margin-bottom: 14px;
+        padding-left: 16px;
+        width: 700px;
+        height: 50px;
+        align-items: center;
+        font-size: 24px;
+        font-weight: 500;
       }
-      h2 {
+
+      .title {
         margin-right: 20px;
       }
 
@@ -49,20 +61,46 @@
         margin-right: 20px;
       }
       .icon {
+        display: block;
         width: 24px;
         height: 24px;
+        margin-left: auto;
+        margin-right: 20px;
       }
-      .text-box {
+      .hidden-box {
+        /* display: flex; */
+        flex-direction: column;
+        /* background-color: blanchedalmond; */
+        padding-left: 64px;
+        padding-right: 64px;
+        padding-bottom: 24px;
+      }
+
+      .hidden-box p {
+        line-height: 1.6;
+        font-weight: 500;
+        padding-bottom: 24px;
+      }
+
+      .hidden-box ul {
         display: flex;
         flex-direction: column;
+        gap: 14px;
+      }
+
+      .hidden-box ul li {
+        margin-left: 16px;
+        /* line-height: 1.7; */
+        color: #868e96;
+        font-weight: 400;
       }
     </style>
   </head>
   <body>
-    <div class="acorrdion">
-      <div class="title">
+    <div class="container">
+      <div class="main">
         <div class="num">01</div>
-        <h2>title</h2>
+        <p class="title">How long do I have to return my chair?</p>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           class="icon"
@@ -78,13 +116,26 @@
           />
         </svg>
       </div>
-      <div class="text-box">
-        <p>sasas</p>
+      <div class="hidden-box">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+          sequi ab architecto accusantium quia quidem rem odit adipisci eveniet
+          repellat cumque.
+        </p>
         <ul>
-          <li>sa</li>
-          <li>sas</li>
-          <li>ssas</li>
-          <li>sasas</li>
+          <li>Lorem ipsum dolor sit amet consectetur. , doloribus ipsam.</li>
+          <li>
+            adipisicing elit. Vel asperiores id explicabo nostrum voluptas
+            corrupti.
+          </li>
+          <li>
+            vitae beatae nam esse deserunt dignissimos assumenda mollitia sint
+            ut.
+          </li>
+          <li>
+            vitae beatae nam esse deserunt dignissimos assumenda mollitia sint
+            ut.
+          </li>
         </ul>
       </div>
     </div>
