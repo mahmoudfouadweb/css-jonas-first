@@ -32,6 +32,51 @@
         text--color: #212529
         light--color: #495057
       */
+      .carousel {
+        width: 825px;
+        margin: 200px auto;
+        background-color: #099268;
+        border-radius: 24px;
+        display: flex;
+        gap: 16px;
+        justify-content: center;
+        align-items: center;
+        padding-right: 24px;
+      }
+
+      img {
+        width: 200px;
+        height: 200px;
+        /* transform: scale(1.5); */
+      }
+
+      .testimonial {
+        color: #fff;
+      }
+
+      .testimonial-text {
+      }
+
+      .btn {
+      }
+
+      .testimonial-author {
+      }
+
+      .testimonial-job {
+      }
+
+      .dots {
+      }
+
+      .dot {
+        display: none;
+        background-color: #fff;
+        border-radius: 50%;
+        width: 12px;
+        height: 12px;
+        border: 2px solid #000;
+      }
     </style>
   </head>
   <body>
@@ -44,9 +89,45 @@
           cumque ab sit quas optio cupiditate, officiis velit quam! Repellat,
           dolores."
         </p>
+        <button class="btn btn--right">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M9 5l7 7-7 7"
+            />
+          </svg>
+        </button>
+        <button class="btn btn--left">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </button>
         <p class="testimonial-author">Maria Abo Ali</p>
         <p class="testimonial-job">product manager at RIGHT comanication</p>
       </blackquote>
+      <div class="dots">
+        <div class="dot">&nbsp;</div>
+        <div class="dot">&nbsp;</div>
+        <div class="dot">&nbsp;</div>
+        <div class="dot">&nbsp;</div>
+      </div>
     </div>
   </body>
 </html>
