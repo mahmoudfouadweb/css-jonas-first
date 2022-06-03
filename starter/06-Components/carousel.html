@@ -64,6 +64,7 @@
         line-height: 1.5;
         margin-bottom: 32px;
         color: #c3fae8;
+        padding-right: 24px;
       }
 
       .btn {
@@ -100,6 +101,8 @@
 
       .testimonial-author {
         font-size: 14px;
+        margin-bottom: 8px;
+        font-style: italic;
       }
 
       .testimonial-job {
@@ -110,8 +113,6 @@
       .testimonial-job,
       .testimonial-author {
         color: #e6fcf5;
-
-        font-style: italic;
       }
 
       .dots {
@@ -120,7 +121,7 @@
         gap: 12px;
         left: 50%;
         bottom: -20%;
-        transform: translate(-50%, 90%);
+        transform: translate(-50%, 0);
       }
 
       .dot {
@@ -128,7 +129,11 @@
         border-radius: 50%;
         width: 12px;
         height: 12px;
-        border: 2px solid #000;
+        border: 2px solid #087f5b;
+      }
+
+      .dot--fill {
+        background-color: #087f5b;
       }
     </style>
   </head>
@@ -138,7 +143,8 @@
       <blackquote class="testimonial">
         <p class="testimonial-text">
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
-          numquam veniam, ipsam voluptas ipsa eveniet facere ."
+          numquam veniam, ipsam voluptas ipsa eveniet sit amet consectetur
+          adipisicing."
         </p>
         <button class="btn btn--right">
           <svg
