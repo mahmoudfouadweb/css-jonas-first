@@ -32,9 +32,111 @@
         text--color: #212529
         light--color: #495057
       */
+
+      .Pagination {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+        width: 825px;
+        margin: 100px auto;
+      }
+
+      .btn {
+        width: 42px;
+        height: 42px;
+        border: #087f5b 1px solid;
+        border-radius: 50%;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .btn--left {
+      }
+
+      .btn--right {
+        order: 3;
+      }
+
+      .icon {
+        width: 24px;
+        height: 24px;
+        stroke: #087f5b;
+      }
+
+      ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 24px;
+      }
+
+      .page--number {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 32px;
+        height: 32px;
+        list-style: none;
+        font-weight: 500;
+        background-color: #087f5b;
+        color: #fff;
+      }
+
+      .btn--active {
+        color: #fff;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+      }
     </style>
   </head>
   <body>
-    <div class="Pagination"></div>
+    <section class="Pagination">
+      <div class="btn btn--left">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="icon"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          stroke-width="2"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M15 19l-7-7 7-7"
+          />
+        </svg>
+      </div>
+      <div class="btn btn--right">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="icon"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          stroke-width="2"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M9 5l7 7-7 7"
+          />
+        </svg>
+      </div>
+      <ul>
+        <li class="page--number">1</li>
+        <li class="page--number">2</li>
+        <li class="page--number">3</li>
+        <li class="page--number">4</li>
+        <li class="page--number">5</li>
+        <li class="page--number">6</li>
+        <span class="page--number">...</span>
+        <li class="page--number">23</li>
+      </ul>
+    </section>
   </body>
 </html>
