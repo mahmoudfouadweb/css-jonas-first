@@ -5,7 +5,10 @@
   10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 
 - font weights
-default: 400
+Default: 400
+Medium: 500
+Semi-bold: 600
+Bold: 700
 
 - line heights
 default: 1
@@ -22,6 +25,7 @@ default: 1
 ---05 SHADOWS
 
 ---06 BORDER-RADIOS
+default: 9px
 
 ---07 WHITESPACE
 
@@ -37,7 +41,7 @@ default: 1
 
 html {
   /* font-size: 10px; */
-  /* Precentage of user's browser font-size setting
+  /* Percentage of user's browser font-size setting
   10px / 16px * 100 => 62.5% === 10px
   */
   font-size: 62.5%;
@@ -50,40 +54,16 @@ body {
   color: #555;
 }
 
-.section-hero {
-  background-color: #fdf2e9;
-}
-
-.hero {
-  max-width: 130rem;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 8.2rem;
-  align-items: center;
-}
-
-.hero-text-box {
-  display: flex;
-  flex-direction: column;
-  gap: 4.8rem;
-}
+/**************************************/
+/* START GENERAL COMPONENT */
+/**************************************/
 
 .heading-primary {
-  font-size: 6.8rem;
+  font-size: 6.2rem;
   font-weight: 700;
   color: #333;
   letter-spacing: -2.5px;
-}
-
-.hero-description {
-  font-size: 2.4rem;
-  line-height: 1.6;
-}
-
-.hero-btn-box {
-  display: flex;
-  gap: 1.6rem;
+  line-height: 1.1;
 }
 
 .btn:link,
@@ -124,23 +104,165 @@ body {
   background-color: #fdf2e9;
 }
 
-.hero-img-box {
-  padding-bottom: 9.6rem;
-  padding-top: 9.2rem;
-}
-
-.hero-img {
-  width: 100%;
-}
-
 .margin-right-sm {
   margin-right: 1.6rem !important;
 }
 
-.delevered-imgs {
+/**************************************/
+/* END OF GENERAL COMPONENT */
+/**************************************/
+
+/**************************************/
+/* START HEADER */
+/**************************************/
+
+.header {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fdf2e9;
+  /* because we want heade to be sticky later */
+  height: 9.6rem;
+  padding: 0 4.8rem;
+}
+
+.logo {
+  height: 2.4rem;
+}
+
+/**************************************/
+/* END OF HEADER */
+/**************************************/
+
+/**************************************/
+/* START NAVIGATION */
+/**************************************/
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 3.2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.main-nav-link:active,
+.main-nav-link:hover {
+  color: #cf711f;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  color: #fff;
+  background-color: #e67e22;
+  padding: 1.2rem 2.4rem;
+  border-radius: 0.8rem;
+}
+
+.main-nav-link.nav-cta:active,
+.main-nav-link.nav-cta:hover {
+  background-color: #cf711f;
+}
+
+/**************************************/
+/* END OF NAVIGATION */
+/**************************************/
+
+/**************************************/
+/* START HERO SECTION */
+/**************************************/
+
+.section-hero {
+  background-color: #fdf2e9;
+  /*  48 / 64 / 80 / 96 / 128 */
+  padding: 3.2rem 0 9.2rem 0;
+}
+
+.hero {
+  display: grid;
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  grid-template-columns: 1fr 1fr;
+  gap: 8.2rem;
+  align-items: center;
+}
+
+.hero-text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  align-self: flex-start;
+  /* margin: auto; */
+}
+
+.hero-description {
+  font-size: 2.4rem;
+  line-height: 1.6;
+}
+
+.hero-btn-box {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.hero-img-box {
+  display: flex;
+  padding-bottom: 9.6rem;
+  /* padding-top: 9.2rem; */
+}
+
+.hero-img {
+  align-self: center;
+  width: 100%;
+}
+
+.delivered-meals {
+  display: flex;
+  margin-top: 6.4rem;
+  gap: 1.6rem;
+}
+
+.delivered-imgs {
+  display: flex;
+  margin-right: 2.4rem;
 }
 
 .customer-img {
   border-radius: 150%;
+  height: 4.8rem;
+  width: 4.8rem;
+  margin-right: -1.6rem;
+  border: 3px solid #fdf2e9;
 }
+
+.customer-img :last-child {
+  margin-right: 0;
+}
+.delivered-text {
+  font-size: 1.8rem;
+  font-weight: 600;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.delivered-text span {
+  color: #cf711f;
+  font-weight: 700;
+}
+
+/**************************************/
+/* END OF HERO SECTION */
+/**************************************/
