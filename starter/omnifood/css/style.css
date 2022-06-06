@@ -37,7 +37,9 @@ default: 1
 
 html {
   /* font-size: 10px; */
-  /* Precentage of user's browser font-size setting */
+  /* Precentage of user's browser font-size setting
+  10px / 16px * 100 => 62.5% === 10px
+  */
   font-size: 62.5%;
 }
 
@@ -48,6 +50,14 @@ body {
   color: #555;
 }
 
-.hero-text-box {
-  font-size: 1.6rem;
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 5.5rem;
+}
+
+.hero-img {
+  width: 100%;
 }
