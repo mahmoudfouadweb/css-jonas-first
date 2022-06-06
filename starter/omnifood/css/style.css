@@ -44,7 +44,7 @@ html {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Rubik', sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
@@ -70,11 +70,14 @@ body {
 }
 
 .heading-primary {
-  font-size: 5.2rem;
+  font-size: 6.8rem;
+  font-weight: 700;
+  color: #333;
+  letter-spacing: -2.5px;
 }
 
 .hero-description {
-  font-size: 2rem;
+  font-size: 2.4rem;
   line-height: 1.6;
 }
 
@@ -87,7 +90,7 @@ body {
 .btn:visited {
   text-decoration: none;
   font-size: 1.8rem;
-  font-weight: bold;
+  font-weight: 600;
   padding: 1.6rem 2.4rem;
   border-radius: 0.8rem;
 }
@@ -106,7 +109,7 @@ body {
 
 .btn:active,
 .btn:hover {
-  transition: all 0.4s;
+  transition: background-color 0.5s;
 }
 
 .btn-cta:active,
@@ -116,7 +119,9 @@ body {
 
 .btn-more:active,
 .btn-more:hover {
-  box-shadow: inset 0 0 0 3px #777;
+  border: none;
+  box-shadow: inset 0 0 0 3px #fff;
+  background-color: #fdf2e9;
 }
 
 .hero-img-box {
@@ -126,4 +131,16 @@ body {
 
 .hero-img {
   width: 100%;
+}
+
+.margin-right-sm {
+  margin-right: 1.6rem !important;
+}
+
+.delevered-imgs {
+  display: flex;
+}
+
+.customer-img {
+  border-radius: 150%;
 }
