@@ -35,9 +35,19 @@ default: 1
   box-sizing: border-box;
 }
 
+html {
+  /* font-size: 10px; */
+  /* Precentage of user's browser font-size setting */
+  font-size: 62.5%;
+}
+
 body {
   font-family: sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
+}
+
+.hero-text-box {
+  font-size: 1.6rem;
 }
