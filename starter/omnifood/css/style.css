@@ -297,10 +297,14 @@ body {
 
 .section-how {
   padding: 9.6px 0;
-  background-color: orangered;
+  /* background-color: orasngered; */
 }
 
 .section-how div {
   font-size: 5rem;
-  padding: 10rem;
+  padding: 9.6rem 0;
+}
+
+.step-img {
+  width: 50%;
 }
