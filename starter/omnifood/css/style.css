@@ -12,6 +12,8 @@ Bold: 700
 
 - line heights
 default: 1
+1.05
+1.6
 
 --02 COLORS
 
@@ -55,8 +57,30 @@ body {
 }
 
 /**************************************/
-/* START GENERAL COMPONENT */
+/* START GENERAL REUSEABLE COMPONENT */
 /**************************************/
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  gap: 9.6rem;
+  /* grid-template-columns: repeat(2, 1fr); */
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
 
 .heading-primary {
   font-size: 6.2rem;
@@ -266,3 +290,33 @@ body {
 /**************************************/
 /* END OF HERO SECTION */
 /**************************************/
+
+/**************************************/
+/* START HOW IT WORKS SECTION */
+/**************************************/
+
+.section-how {
+  padding: 9.6px 0;
+  background-color: orangered;
+}
+
+.section-how div {
+  font-size: 5rem;
+  padding: 10rem;
+}
+
+.section-how div:nth-child(1) {
+  background-color: aqua;
+}
+
+.section-how div:nth-child(2) {
+  background-color: blue;
+}
+
+.section-how div:nth-child(3) {
+  background-color: violet;
+}
+
+.section-how div:nth-child(4) {
+  background-color: yellowgreen;
+}
