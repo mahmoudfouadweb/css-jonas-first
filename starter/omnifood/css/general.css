@@ -12,8 +12,9 @@ Bold: 700
 
 - line heights
 default: 1
-1.05
-1.6
+small: 1.05
+heigh: 1.6
+very-heigh: 1.8 
 
 - letter spacing
  small: -2.5px
@@ -107,6 +108,7 @@ body {
 
 .heading-tertiary {
   font-size: 3.6rem;
+  line-height: 1.2;
   margin-bottom: 3.2rem;
 }
 
