@@ -200,6 +200,8 @@ default: 9px
 
 .section-how {
   padding: 9.6px 0;
+  margin-top: 6.4rem;
+  margin-bottom: 6.4rem;
   /* background-color: orangered; */
 }
 
@@ -210,11 +212,26 @@ default: 9px
   margin-bottom: 1.6rem;
 }
 
-.section-how div {
-  font-size: 5rem;
-  padding: 9.6rem 0;
+.step-description {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.step-img-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .step-img {
-  width: 50%;
+  width: 35%;
+}
+
+.step-img-box::before {
+  content: '';
+  display: block;
+  width: 60%;
+  height: 60%;
+  background-color: #fdf2e9;
 }
