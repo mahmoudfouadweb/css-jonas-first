@@ -22,7 +22,9 @@ default: 1
 --02 COLORS
 
 -primary:#e67e22
--Tints: #fdf2e9
+-Tints: 
+#fdf2e9
+#f8d8bd
 -Shades:#cf711f
 -Accents:
 -Grays
@@ -222,6 +224,7 @@ default: 9px
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .step-img {
@@ -232,6 +235,27 @@ default: 9px
   content: '';
   display: block;
   width: 60%;
-  height: 60%;
+  padding-bottom: 60%;
   background-color: #fdf2e9;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -2;
+}
+
+.step-img-box::after {
+  content: '';
+  display: block;
+  width: 45%;
+  padding-bottom: 45%;
+  background-color: #fae5d3;
+  border-radius: 50%;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
 }
