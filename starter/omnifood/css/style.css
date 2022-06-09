@@ -252,6 +252,7 @@ default: 9px
   padding-bottom: 45%;
   background-color: #fae5d3;
   border-radius: 50%;
+  border: #fff solid 1.4rem;
 
   position: absolute;
   left: 50%;
@@ -273,20 +274,21 @@ default: 9px
 }
 
 .heading-featured-in {
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 500;
   color: #888;
   letter-spacing: 0.75px;
   text-transform: uppercase;
   text-align: center;
-  padding-top: 9.6rem;
-  margin-bottom: 2.4rem;
+  padding-top: 3.2rem;
+  margin-bottom: 4.2rem;
 }
 
 .logos {
   display: flex;
   justify-content: space-around;
   /* align-items: center; */
+  margin-bottom: 4.2rem;
 }
 
 .featured-logo {
@@ -296,4 +298,19 @@ default: 9px
 }
 /**************************************/
 /* END OF AS FEATURED IN SECTION */
+/**************************************/
+
+/**************************************/
+/* START MEALS SECTION */
+/**************************************/
+
+.section-meals {
+  padding: 9.6rem 0;
+  margin-top: 6.4rem;
+  margin-bottom: 6.4rem;
+  background-color: rgba(255, 68, 0, 0.35);
+}
+
+/**************************************/
+/* ENF OF MEALS SECTION */
 /**************************************/
