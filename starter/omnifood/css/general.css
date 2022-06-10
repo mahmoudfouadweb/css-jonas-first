@@ -151,7 +151,8 @@ body {
 
 .btn:active,
 .btn:hover {
-  transition: background-color 0.5s;
+  /* transition: background-color 0.5s; */
+  transition: all 0.5s;
 }
 
 .btn-cta:active,
