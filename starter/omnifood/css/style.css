@@ -407,6 +407,11 @@ default: 9px
   font-size: 1.8rem;
 }
 
+.link:link,
+.link:visited {
+  color: #e67e22;
+  text-decoration: none;
+}
 /**************************************/
 /* ENF OF MEALS SECTION */
 /**************************************/
