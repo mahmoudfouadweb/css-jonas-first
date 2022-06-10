@@ -321,7 +321,7 @@ default: 9px
   font-size: 2.4rem;
   font-weight: 700;
   margin-bottom: 2rem;
-  /* margin-left: 4.8rem; */
+  margin-bottom: 2.4rem;
 }
 
 .meal-img {
@@ -364,10 +364,26 @@ default: 9px
   font-weight: 400;
 }
 
-ion-icon {
+.meal-icon {
   margin-right: 1.4rem;
   color: #cf711f;
   font-size: 2.4rem;
+}
+
+.heading-list {
+  font-size: 3.4rem;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 3.4rem;
+}
+
+.meal-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  font-size: 1.8rem;
+  font-weight: 500;
 }
 /**************************************/
 /* ENF OF MEALS SECTION */
