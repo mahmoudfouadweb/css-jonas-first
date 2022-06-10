@@ -402,6 +402,11 @@ default: 9px
 .tag:nth-child(2) {
   background-color: goldenrod;
 }
+
+.all-recipes {
+  font-size: 1.8rem;
+}
+
 /**************************************/
 /* ENF OF MEALS SECTION */
 /**************************************/
