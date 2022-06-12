@@ -129,8 +129,20 @@ body {
   letter-spacing: 0.75px;
 }
 
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2.4rem;
+  font-size: 2rem;
+  /* font-weight: 500; */
+}
+
 .btn:link,
 .btn:visited {
+  display: inline-block;
   text-decoration: none;
   font-size: 1.8rem;
   font-weight: 600;
