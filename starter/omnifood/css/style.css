@@ -555,6 +555,12 @@ default: 9px
   text-align: center;
 }
 
+.plan-details {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
 /**************************************/
 /* ENF OF PRICING SECTION */
 /**************************************/
@@ -591,4 +597,33 @@ default: 9px
 
 /**************************************/
 /* END OF FEATURE SECTION */
+/**************************************/
+
+/**************************************/
+/* START CTA SECTION */
+/**************************************/
+.section-cta {
+  padding: 9.6rem 0;
+}
+
+.cta {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: #cf711f;
+  border-radius: 11px;
+  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.15);
+  
+  
+  /* TEMP */
+  height: 50rem;
+}
+
+.cta-text-box {
+}
+
+.cta-img-box {
+}
+
+/**************************************/
+/* ENF OF CTA SECTION */
 /**************************************/
