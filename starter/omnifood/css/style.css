@@ -609,11 +609,11 @@ default: 9px
 .cta {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  background-color: #cf711f;
+  /* background-color: #cf711f; */
   border-radius: 11px;
   box-shadow: 0 20px 25px rgba(0, 0, 0, 0.15);
-  
-  
+  background-image: linear-gradient(to bottom right, #e67e22, #eb984e);
+
   /* TEMP */
   height: 50rem;
 }
@@ -622,6 +622,15 @@ default: 9px
 }
 
 .cta-img-box {
+  background-image: linear-gradient(
+      to bottom right,
+      rgba(230, 125, 34, 0.25),
+      rgba(235, 151, 78, 0.25)
+    ),
+    url('../img/eating.jpg');
+  background-size: cover;
+  border-top-right-radius: 11px;
+  border-bottom-right-radius: 11px;
 }
 
 /**************************************/
