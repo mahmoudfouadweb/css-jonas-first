@@ -559,6 +559,10 @@ default: 9px
 /* ENF OF PRICING SECTION */
 /**************************************/
 
+/**************************************/
+/* START FEATURE SECTION */
+/**************************************/
+
 .feature-section {
   grid-column: 1/-1;
 }
@@ -568,6 +572,9 @@ default: 9px
   width: 2.4rem;
   height: 2.4rem;
   margin-bottom: 3.2rem;
+  background-color: #fdf2e9;
+  padding: 1.6rem;
+  border-radius: 50%;
 }
 
 .feature-title {
@@ -578,6 +585,10 @@ default: 9px
 }
 
 .feature-text {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   line-height: 1.8;
 }
+
+/**************************************/
+/* END OF FEATURE SECTION */
+/**************************************/
