@@ -47,6 +47,11 @@ default: 9px
   box-sizing: border-box;
 }
 
+*:focus {
+  outline: none;
+  /* outline: ; */
+  box-shadow: 0 0 0 0.8rem #cf711f77;
+}
 html {
   /* font-size: 10px; */
   /* Percentage of user's browser font-size setting
@@ -189,6 +194,17 @@ body {
   background-color: #fdf2e9;
 }
 
+.btn.btn-form {
+  background-color: #2e1907;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.2rem;
+}
+
+.btn.btn-form:hover {
+  background-color: #fff;
+  color: #555;
+}
 /* HELPER/SETTINGS CLASSES */
 
 .margin-right-sm {

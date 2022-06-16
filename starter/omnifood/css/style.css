@@ -618,7 +618,7 @@ default: 9px
   background-image: linear-gradient(to left top, #e67e22, #e79650);
 
   /* TEMP */
-  height: 50rem;
+  /* height: 50rem; */
 }
 
 .cta-text-box {
@@ -683,12 +683,6 @@ default: 9px
   color: #aaa;
 }
 
-.btn.btn-form {
-  background-color: #2e1907;
-  color: #fdf2e9;
-  align-self: end;
-  padding: 1.2rem;
-}
 /**************************************/
 /* ENF OF CTA SECTION */
 /**************************************/
