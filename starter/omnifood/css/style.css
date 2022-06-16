@@ -31,6 +31,10 @@ default: 1
 -Accents:
 -Grays
 #aaa
+#888
+#777
+#767676 (lightest gray allowed on #fff)
+#6f6f6f (lightest gray allowed on #fdf2e9)
 #525252
 #555
 #333
@@ -602,7 +606,7 @@ default: 9px
 /* START CTA SECTION */
 /**************************************/
 .section-cta {
-  padding: 9.6rem 0;
+  padding: 4.8rem 0 12.8rem;
 }
 
 .cta {
@@ -692,9 +696,97 @@ default: 9px
 /* START FOOTER SECTION */
 /**************************************/
 .footer {
-  padding: 9.6rem 0;
+  padding: 12.8rem 0;
+  border-top: 1px solid #eee;
 }
 
+.grid-footer {
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+
+.logo-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  display: block;
+
+  /* margin-bottom: 3.2rem; */
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+  /* align-items: center; */
+  justify-content: flex-start;
+  /* margin-bottom: 2.4rem; */
+}
+
+.social-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.copyright {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #767676;
+  /* text-align: center; */
+  /* margin-top: auto; */
+}
+
+.footer-heading {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 3.2rem;
+}
+
+.footer-nav {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #767676;
+  transition: all 0.3s;
+}
+
+.footer-link:active,
+.footer-link:hover {
+  color: #444;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 1.6rem;
+  font-style: normal;
+  line-height: 1.6;
+  gap: 3.6rem;
+}
+
+.address-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* margin-bottom: 2.4rem; */
+}
+
+.contacts p:last-child {
+  /* background-color: #40c057; */
+  padding-top: auto;
+}
 /**************************************/
 /* END WEB APPLICATION */
 /**************************************/
