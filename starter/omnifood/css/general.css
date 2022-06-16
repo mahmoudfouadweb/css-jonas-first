@@ -78,6 +78,10 @@ body {
   /* margin-bottom: 9.6rem; */
 }
 
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
 }
@@ -96,6 +100,10 @@ body {
 
 .grid:last-child {
   margin-bottom: 0;
+}
+
+.logo {
+  height: 2.4rem;
 }
 
 .heading-primary,
