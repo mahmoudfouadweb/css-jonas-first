@@ -8,5 +8,6 @@
     "omnifood",
     "Omnifood",
     "Pescatarian"
-  ]
+  ],
+  "liveServer.settings.port": 5501
 }
